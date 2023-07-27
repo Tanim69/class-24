@@ -1,0 +1,36 @@
+.agenc{
+    padding: 100px 0px;
+    background: #ffffff;
+}
+
+
+.agenc__recent h2{
+    color: var(--dark-01, #151515);
+text-align: center;
+font-family: Inter;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+.agenc__recent p{
+    width: 802px;
+    margin: 0 auto;
+    color: var(--dark-03, #737373);
+    text-align: center;
+    /* Paragraph */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    padding-bottom: 130px;
+}
+
+
+.agenc__rowsecond{
+    padding-top: 92px;
+}

@@ -1,0 +1,50 @@
+.navbar{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.navbar__item ul {
+
+    display: flex;
+
+justify-content: space-around;
+
+}
+.navbar__wrapper{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    width: 100%;
+}
+img, svg {
+    vertical-align: middle;
+    margin-top: -15px;
+}
+.navbar__image{
+    width: 20%;
+}
+.navbar__item{
+    width: 60%;
+
+}
+.navbar__button{
+    width: 20%;
+}
+
+.navbar__item ul li a{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.navbar__btn{
+    padding: 15px 42px;
+    background: var( --primary-color);
+    border-radius: 10px;
+    border-color: 1px solid var( --primary-color);
+
+}
